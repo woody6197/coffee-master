@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    background-color: #43281c;
+    color: #fbf2c0;
+    text-align: center;
+    align-items: center;
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 30px;
+    position: relative;
+    padding-right: 5px;
+}
