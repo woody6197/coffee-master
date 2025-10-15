@@ -36,20 +36,30 @@ body {
     display: flex;
 }
 
-.box-1 {
+.box {
     background-color: #eee1d5;
-    width: 48%;
-    height: 380px;
+    width: 49%;
+    min-height: 400px;
     text-align: center;
     border-radius: 5px;
 }
 
-.box-2 {
+.column-box {
     background-color: #eee1d5;
-    width: 48%;
-    height: 380px;
+    min-height: 150px;
     text-align: center;
     border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.right-column {
+    flex-direction: column;
+    width: 49%;
+    min-height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    justify-content: space-between;
 }
 
 .box-title {
@@ -57,6 +67,7 @@ body {
     text-align: left;
     padding-left: 20px;
     color: #885a2d;
+    font-weight: 300;
 }
 
 .div-line {
@@ -95,4 +106,61 @@ body {
     text-align: right;
     width: 100%;
     padding-right: 40px;
+}
+
+.footer {
+    max-width: 100%;
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-top: 40px;
+    align-self: center;
+}
+
+.total-row {
+    font-weight: 700;
+}
+
+.input {
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eee1d5;
+    border-radius: 30px;
+    border-color: #DDB892;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+
+.small-input {
+    height: 35px;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eee1d5;
+    border-radius: 30px;
+    border-color: #DDB892;
+    border-width: 2px;
+
+}
+
+
+.input-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.small-input-container {
+    padding-left: 20px;
+    padding-right: 500px;
+}
+
+.order-button {
+    background-color: #DDB892;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
