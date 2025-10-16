@@ -111,8 +111,8 @@ body {
 
 .footer {
     max-width: 100%;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 700px;
+    padding-right: 700px;
     padding-top: 40px;
     align-self: center;
 }
@@ -168,4 +168,21 @@ body {
 
 .spacer {
     height: 50px;
+}
+
+.checkout-button {
+    background-color: #DDB892;
+    height: 40px;
+    width: 90%;
+    border-radius: 30px;
+    border: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: medium;
+    margin-top: 40px;
 }
